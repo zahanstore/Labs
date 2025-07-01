@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahan Labs | Innovative Hospitality Projects</title>
+    <style>
+        :root {
+            --sand-grey: #D8D0C1;
+            --dark-sand: #B8B0A1;
+            --lavender: #967BB6;
+            --dark-lavender: #7A5B9A;
+            --text-dark: #333333;
+            --text-light: #F8F8F8;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        body {
+            background-color: var(--sand-grey);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 1px solid var(--dark-sand);
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--lavender);
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--text-dark);
+            opacity: 0.8;
+        }
+        
+        section {
+            padding: 60px 0;
+            border-bottom: 1px solid var(--dark-sand);
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: var(--dark-lavender);
+            text-align: center;
+        }
+        
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .project-title {
+            font-size: 1.5rem;
+            color: var(--lavender);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .project-icon {
+            margin-right: 10px;
+            font-size: 1.8rem;
+        }
+        
+        .project-description {
+            margin-bottom: 20px;
+        }
+        
+        .project-highlights {
+            padding-left: 20px;
+        }
+        
+        .project-highlights li {
+            margin-bottom: 8px;
+        }
+        
+        .sub-project {
+            margin-top: 20px;
+            padding-left: 20px;
+            border-left: 3px solid var(--lavender);
+        }
+        
+        footer {
+            padding: 30px 0;
+            text-align: center;
+            color: var(--text-dark);
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2rem;
+            }
+            
+            section {
+                padding: 40px 0;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+            }
+            
+            .project-card {
+                padding: 20px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 1.8rem;
+            }
+            
+            .tagline {
+                font-size: 1rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .project-title {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">ZAHAN LABS</div>
+            <div class="tagline">Innovative Hospitality Experiences</div>
+        </header>
+        
+        <section id="projects">
+            <h2>Current Projects</h2>
+            
+            <div class="project-card">
+                <h3 class="project-title">
+                    <span class="project-icon">🪟</span>
+                    Rain & Frame
+                </h3>
+                <p class="project-description">
+                    A groundbreaking marketing initiative that redefines how hospitality brands connect with their audiences. Rain & Frame combines innovative digital strategies with authentic storytelling to create memorable brand experiences that resonate with modern consumers.
+                </p>
+                <ul class="project-highlights">
+                    <li>Integrated digital marketing campaigns</li>
+                    <li>Brand positioning strategy development</li>
+                    <li>Customer engagement solutions</li>
+                </ul>
+            </div>
+            
+            <div class="project-card">
+                <h3 class="project-title">
+                    <span class="project-icon">🏨</span>
+                    Hospitality Projects
+                </h3>
+                <p class="project-description">
+                    Zahan Labs is revolutionizing the hospitality industry with two distinct hotel concepts that cater to different market segments while maintaining exceptional service standards.
+                </p>
+                
+                <div class="sub-project">
+                    <h4 class="project-title">
+                        <span class="project-icon">💚</span>
+                        Kahn Boutique
+                    </h4>
+                    <p class="project-description">
+                        An experiential three-star boutique hotel that combines affordability with unique, green experiences. Kahn Boutique focuses on sustainable practices while offering guests memorable stays through carefully curated local experiences.
+                    </p>
+                    <ul class="project-highlights">
+                        <li>Eco-friendly design and operations</li>
+                        <li>Local artisan collaborations</li>
+                        <li>Community-focused experiences</li>
+                    </ul>
+                </div>
+                
+                <div class="sub-project">
+                    <h4 class="project-title">
+                        <span class="project-icon">✨</span>
+                        Mogul International
+                    </h4>
+                    <p class="project-description">
+                        The epitome of luxury, Mogul International redefines the seven-star hotel experience with unparalleled service, exquisite design, and attention to every detail. This property caters to the most discerning travelers seeking exclusivity and premium amenities.
+                    </p>
+                    <ul class="project-highlights">
+                        <li>World-class spa and wellness facilities</li>
+                        <li>Michelin-starred dining options</li>
+                        <li>Personalized concierge services</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h3 class="project-title">
+                    <span class="project-icon">🍽️</span>
+                    Restaurants & Cafés
+                </h3>
+                <p class="project-description">
+                    Our culinary ventures offer diverse dining experiences, from premium seafood to artisanal tea and coffee.
+                </p>
+                
+                <div class="sub-project">
+                    <h4 class="project-title">
+                        <span class="project-icon">🦞</span>
+                        Seafood Mansion
+                    </h4>
+                    <p class="project-description">
+                        A curated seafood estate offering fine dining with an exclusively assorted seafood menu. Seafood Mansion sources the freshest ingredients from sustainable fisheries worldwide, prepared by award-winning chefs.
+                    </p>
+                    <ul class="project-highlights">
+                        <li>Daily fresh catches from global waters</li>
+                        <li>Innovative seafood preparations</li>
+                        <li>Elegant nautical-themed ambiance</li>
+                    </ul>
+                </div>
+                
+                <div class="sub-project">
+                    <h4 class="project-title">
+                        <span class="project-icon">☕</span>
+                        Teamansion
+                    </h4>
+                    <p class="project-description">
+                        A curated tea and coffee house that celebrates the art of brewing. Teamansion offers a global selection of premium teas and specialty coffees in a serene, book-lined environment perfect for relaxation and conversation.
+                    </p>
+                    <ul class="project-highlights">
+                        <li>Single-origin coffee beans</li>
+                        <li>Rare tea varieties from around the world</li>
+                        <li>Barista and tea master workshops</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h3 class="project-title">
+                    <span class="project-icon">📚</span>
+                    Book Mansion
+                </h3>
+                <p class="project-description">
+                    A curated bookstore that goes beyond retail to create a cultural hub for bibliophiles. Book Mansion features rare editions, author events, and cozy reading nooks alongside its extensive collection of titles across all genres.
+                </p>
+                <ul class="project-highlights">
+                    <li>Monthly author talks and book signings</li>
+                    <li>Rare and collectible book section</li>
+                    <li>Reading lounges with artisanal refreshments</li>
+                    <li>Personalized book recommendation service</li>
+                </ul>
+            </div>
+        </section>
+        
+        <footer>
+            &copy; 2025 Zahan Labs. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
