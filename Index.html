@@ -516,6 +516,41 @@
             .success-icon {
                 font-size: 3rem;
             }
+
+            .headline-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.realty-logo {
+    height: 60px;
+    width: auto;
+}
+
+/* If you need additional styling for the logo and headline */
+#realty h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .headline-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .realty-logo {
+        height: 50px;
+    }
+    
+    #realty h2 {
+        font-size: 2rem;
+    }
         }
     </style>
 </head>
@@ -690,93 +725,96 @@
         </section>
         
         <!-- Zahan Realty Section -->
-        <section id="realty">
-            <h2>Zahan Realty®</h2>
+<section id="realty">
+    <div class="headline-container">
+        <img src="Realty logo1.png" alt="Zahan Realty Logo" class="realty-logo">
+        <h2>Zahan Realty®</h2>
+    </div>
+    
+    <div class="project-card">
+        <div class="project-banner-container">
+            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Zahan Realty Development" class="project-banner">
+        </div>
+        <div class="project-content">
+            <h3 class="project-title">
+                <span class="project-icon">🏢</span>
+                Comprehensive Real Estate Solutions
+            </h3>
+            <p class="project-description">
+                Zahan Realty® stands as a premier real estate development firm with a diversified portfolio spanning the entire property lifecycle. From visionary concept to meticulous management, we deliver excellence across residential, commercial, and hospitality sectors.
+            </p>
             
-            <div class="project-card">
-                <div class="project-banner-container">
-                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Zahan Realty Development" class="project-banner">
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">
-                        <span class="project-icon">🏢</span>
-                        Comprehensive Real Estate Solutions
-                    </h3>
-                    <p class="project-description">
-                        Zahan Realty® stands as a premier real estate development firm with a diversified portfolio spanning the entire property lifecycle. From visionary concept to meticulous management, we deliver excellence across residential, commercial, and hospitality sectors.
+            <div class="realty-services">
+                <div class="service-card">
+                    <div class="service-icon">🏗️</div>
+                    <h4 class="service-title">Real Estate Development</h4>
+                    <p class="service-description">
+                        Transforming visionary concepts into landmark properties through strategic land acquisition, feasibility studies, and innovative development approaches that maximize value and community impact.
                     </p>
-                    
-                    <div class="realty-services">
-                        <div class="service-card">
-                            <div class="service-icon">🏗️</div>
-                            <h4 class="service-title">Real Estate Development</h4>
-                            <p class="service-description">
-                                Transforming visionary concepts into landmark properties through strategic land acquisition, feasibility studies, and innovative development approaches that maximize value and community impact.
-                            </p>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">📋</div>
-                            <h4 class="service-title">Project Development Services (PDS)</h4>
-                            <p class="service-description">
-                                End-to-end project management from conception to completion, ensuring seamless coordination between stakeholders, regulatory compliance, and adherence to timelines and budgets.
-                            </p>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">🏭</div>
-                            <h4 class="service-title">Construction Management</h4>
-                            <p class="service-description">
-                                Implementing cutting-edge construction methodologies with rigorous quality control, safety protocols, and sustainable building practices to deliver superior built environments.
-                            </p>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">🔧</div>
-                            <h4 class="service-title">Project Management Consultancy (PMC)</h4>
-                            <p class="service-description">
-                                Expert advisory services providing strategic oversight, risk management, and technical expertise to optimize project outcomes and investment returns.
-                            </p>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">⚡</div>
-                            <h4 class="service-title">Engineering, Procurement & Construction (EPC)</h4>
-                            <p class="service-description">
-                                Integrated turnkey solutions combining engineering excellence, strategic procurement, and construction expertise for complex development projects.
-                            </p>
-                        </div>
-                        
-                        <div class="service-card">
-                            <div class="service-icon">🏘️</div>
-                            <h4 class="service-title">Property & Facilities Management</h4>
-                            <p class="service-description">
-                                Comprehensive asset management services enhancing property value through proactive maintenance, tenant relations, operational efficiency, and sustainability initiatives.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="realty-stats">
-                        <div class="stat-item">
-                            <div class="stat-number">50+</div>
-                            <div class="stat-label">Projects Completed</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">15</div>
-                            <div class="stat-label">Years Experience</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">$2B+</div>
-                            <div class="stat-label">Portfolio Value</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">98%</div>
-                            <div class="stat-label">Client Satisfaction</div>
-                        </div>
-                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h4 class="service-title">Project Development Services (PDS)</h4>
+                    <p class="service-description">
+                        End-to-end project management from conception to completion, ensuring seamless coordination between stakeholders, regulatory compliance, and adherence to timelines and budgets.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏭</div>
+                    <h4 class="service-title">Construction Management</h4>
+                    <p class="service-description">
+                        Implementing cutting-edge construction methodologies with rigorous quality control, safety protocols, and sustainable building practices to deliver superior built environments.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h4 class="service-title">Project Management Consultancy (PMC)</h4>
+                    <p class="service-description">
+                        Expert advisory services providing strategic oversight, risk management, and technical expertise to optimize project outcomes and investment returns.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h4 class="service-title">Engineering, Procurement & Construction (EPC)</h4>
+                    <p class="service-description">
+                        Integrated turnkey solutions combining engineering excellence, strategic procurement, and construction expertise for complex development projects.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏘️</div>
+                    <h4 class="service-title">Property & Facilities Management</h4>
+                    <p class="service-description">
+                        Comprehensive asset management services enhancing property value through proactive maintenance, tenant relations, operational efficiency, and sustainability initiatives.
+                    </p>
                 </div>
             </div>
-        </section>
+            
+            <div class="realty-stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">$2B+</div>
+                    <div class="stat-label">Portfolio Value</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         
         <section id="contact">
             <h2>Contact Us</h2>
